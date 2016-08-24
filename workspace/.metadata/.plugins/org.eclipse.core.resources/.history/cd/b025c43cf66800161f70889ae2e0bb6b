@@ -1,0 +1,12 @@
+
+public class removespacesTest {
+	 public static void main( String[] args){
+	String s11="Bindu madhavi";
+	String[] s11a=s11.split("");
+	System.out.prinln(s11a.length);
+	
+	
+	
+	 
+	 }
+}

@@ -1,0 +1,24 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		System.out.println("Hello Bindu Madhavi");	}
+
+}
+
+
+     public class Class {
+	 public static void main(String[] bindu) {
+	 System.out.println("Hai world"); }
+
+	 }
+     
+     
+     public class Hai{
+    	 public static void main(String[] args){
+    	 System.out.println("Hai world!");}
+    	 
+    	 }

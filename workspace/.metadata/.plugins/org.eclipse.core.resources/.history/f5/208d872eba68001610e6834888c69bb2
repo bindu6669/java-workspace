@@ -1,0 +1,19 @@
+
+public class stringtest {
+   public static void main( String[] args){
+	   
+	  //* Write a program by using String Methods(length(), substring(), UpperCase(), Lowercase(),charAt(),indexOf(),compareTo(),equals(),startsWith(),endsWith() & format()): 
+         
+	   //length
+	   String s1="bindu";
+	   char[] ch=s1.toCharArray();
+	   System.out.println(ch.length);
+	   System.out.println(s1.length());
+	   
+	   //substring
+	   System.out.println(s1.substring(3));
+	   
+	  
+	   
+   }
+}

@@ -1,0 +1,10 @@
+
+public class stringtest {
+   public static void main( String[] args){
+	   
+	  //* Write a program by using String Methods(length(), substring(), UpperCase(), Lowercase(),charAt(),indexOf(),compareTo(),equals(),startsWith(),endsWith() & format()): 
+
+	   String s1="bindu";
+	   System.out.println(char length());
+   }
+}

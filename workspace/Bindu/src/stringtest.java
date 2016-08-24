@@ -1,0 +1,57 @@
+
+public class stringtest {
+   public static void main( String[] args){
+	   
+	  //* Write a program by using String Methods(length(), substring(), UpperCase(), Lowercase(),charAt(),indexOf(),compareTo(),equals(),startsWith(),endsWith() & format()): 
+         
+	   //length
+	   String s1="Bindu";
+	   char[] ch=s1.toCharArray();
+	   System.out.println(ch.length);
+	   System.out.println(s1.length());
+	   
+	   //substring
+	   System.out.println(s1.substring(1));
+	   System.out.println(s1.substring(1, 3));
+	   
+	   //uppercase
+	   System.out.println(s1.toUpperCase());
+	   
+	   //lowercase
+	   System.out.println(s1.toLowerCase());
+	   
+	   //charAt
+	   System.out.println(s1.charAt(2));
+	   
+	   //index of
+	   System.out.println(s1.indexOf('B'));
+	   System.out.println(s1.indexOf('d'));
+	   
+	   //compareT0
+	   String s2= "Madhavi";
+	   String s3= "bindu";
+	   System.out.println(s2.compareTo(s3));
+	   
+	   //equals
+	   String s4="Bindu";
+	   System.out.println(s1.equals (s4));
+	   
+	   //starts with
+	   System.out.println(s1.startsWith("bin"));
+	   System.out.println(s1.startsWith("Bin"));
+	   
+	   //ends with
+	   System.out.println(s1.endsWith("du"));
+	   
+	   //is empty
+	   System.out.println(s1.isEmpty());
+	   
+	   //format
+	   String s6="working";
+	   int i=12;
+	   
+	  System.out.println(String.format("%s hard .by %d hours", "working",12));
+	   
+	   
+   }
+}

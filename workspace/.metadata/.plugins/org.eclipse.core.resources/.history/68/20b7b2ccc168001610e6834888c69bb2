@@ -1,0 +1,12 @@
+
+public class fomattest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//format
+		   String result= String.format(10, 20,23);
+		   System.out.println(result);
+		   
+	}
+
+}

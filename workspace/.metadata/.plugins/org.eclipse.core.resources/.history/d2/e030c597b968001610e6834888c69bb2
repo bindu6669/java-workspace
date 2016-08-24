@@ -1,0 +1,11 @@
+
+public class stringtest {
+   public static void main( String[] args){
+	   
+	  //* Write a program by using String Methods(length(), substring(), UpperCase(), Lowercase(),charAt(),indexOf(),compareTo(),equals(),startsWith(),endsWith() & format()): 
+
+	   String s1="bindu";
+	   char[] ch=s1.toCharArray();
+	   System.out.println(ch.length);
+   }
+}

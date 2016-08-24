@@ -1,0 +1,18 @@
+
+public class harmonicTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+			  int num = Integer.parseInt(args[0]);
+			  float result = 0.0f;
+			  while(num > 0){
+			   result = result + (float) 1 / num;
+			   num--;
+			  }
+			  System.out.println("Output of Harmonic Series is "+result);
+			 }
+			
+	}
+
+
